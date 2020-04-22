@@ -5,5 +5,4 @@ from frontend.views import index
 urlpatterns = [
     path('', index),
     path('admin/', admin.site.urls),
-    path('api/', include('posts.urls')),
 ]
